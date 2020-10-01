@@ -90,9 +90,13 @@ background-repeat: no-repeat;
 background-position: right top;
 }
 .main__title {
-font:bold 66px/87px 'PT_Serif';
-font-style: normal;
+font-family: 'PT_Serif';
+font-weight:700;
+font-size:72px;
+line-height: 87px;
+font-weight: bold;
 margin-bottom:40px;
+padding-top: 70px;
 }
 .main__title-text-highlight {
 background-color:#ECF3FF
@@ -109,7 +113,7 @@ font-size:18px;
 line-height: 21px;
 color: white;
 background: #0056EC;
-width: 270px;
+weight: 270px;
 height: 57px;
 border-radius:4px;
 text-decoration: none;
@@ -208,7 +212,7 @@ background-color: #D40FA9;
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 40px 0;
+  padding: 155px 0;
   text-align: center;
   background-color: #fff;
   font-family: 'Roboto';
@@ -220,8 +224,7 @@ background-color: #D40FA9;
 }
 .burger-menu__item {
   display: block;
-  padding-top: :180px;
-  line-height: 25px;
+  padding-top: 25px;
   color: #000;
   font-family: 'Roboto';
   font-size: 30px;
@@ -248,7 +251,5 @@ background-color: #D40FA9;
 }
 #menu__toggle:checked ~ .burger-menu__box {
   visibility: visible;
-
-  //right: 27;
 }
 }
