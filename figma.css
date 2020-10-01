@@ -94,32 +94,34 @@ font-family: 'PT_Serif';
 font-weight:700;
 font-size:72px;
 line-height: 87px;
-font-weight: bold;
 margin-bottom:40px;
-padding-top: 70px;
+padding-top: 68px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .main__title-text-highlight {
 background-color:#ECF3FF
 }
 .main__description {
-font: normal 400 22px/26px 'Roboto';
+font: 450 22px/26px 'Roboto';
 margin-top:40px;
 margin-bottom: 59px;
 }
 .main__button {
-font-family:'Roboto'Aria, Helvetica, Sana-serif;
+display: block;
+font-family:'Roboto';
 font-weight:500;
 font-size:18px;
 line-height: 21px;
 color: white;
 background: #0056EC;
-weight: 270px;
-height: 57px;
+width: 242px;
+height: 25px;
 border-radius:4px;
 text-decoration: none;
 padding: 14px 16px;
 transition: opacity: .5s;
 transition: background-color 1000ms;
+text-align: center;
 }
 .main__button:hover {
   opacity: .5;
@@ -151,6 +153,7 @@ background-color: #D40FA9;
   .main__button {
   font: 400 14px/16px 'Roboto'Aria, Helvetica, Sana-serif;
   margin-top:25px;
+  z-index: 20;
 }
 .logo {
   display:none;
@@ -185,7 +188,7 @@ background-color: #D40FA9;
   width: 25px;
   height: 17px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 20;
 }
 .menu__button > span,
 .menu__button  > span::before,
@@ -221,6 +224,7 @@ background-color: #D40FA9;
   line-height: 35px;
   text-decoration: none;
   color: #000;
+  z-index: 10;
 }
 .burger-menu__item {
   display: block;
