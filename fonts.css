@@ -14,7 +14,7 @@
 
 
 @font-face {
-    font-family: 'pt_serifbold_italic';
+    font-family: 'PT_Serif';
     src: url('ptserif-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
@@ -25,7 +25,7 @@
 
 
 @font-face {
-    font-family: 'pt_serifitalic';
+    font-family: 'PT_Serif';
     src: url('ptserif-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
@@ -36,7 +36,7 @@
 
 
 @font-face {
-    font-family: 'pt_serifregular';
+    font-family: 'PT_Serif';
     src: url('ptserif-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
