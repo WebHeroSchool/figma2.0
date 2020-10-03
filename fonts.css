@@ -2,7 +2,7 @@
     font-family: 'PT_Serif';
     src: url('PTSerif-Bold.woff') format('woff');
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
 }
 
 @font-face {
@@ -30,7 +30,7 @@
     font-family: 'Roboto';
     src: url('Roboto-Bold.woff') format('woff');
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
 }
 
 
