@@ -12,7 +12,7 @@ display:inline-block;
 }
 .logo {
 position: relative;
-padding-top: 38px;
+padding-top: 35px;
 padding-left:45px;
 font: bold 24px/32px PT_Serif, Aria,Helvetica,Sana-serif;
 }
@@ -47,7 +47,7 @@ ul {
 padding-top: 38px;
 display:flex;
 align-items: center;
-padding-right: 70px;
+padding-right: 60px;
 }
 .menu__item {
 position: relative;
@@ -89,13 +89,11 @@ padding:0 63% 200px 0;
 background: top right no-repeat url('picture.svg');
 background-repeat: no-repeat;
 background-position: right top;
+margin-right: 50px;
 }
 .main__title {
-font-family: 'PT_Serif';
-font-weight:700;
-font-size:72px;
-line-height: 87px;
-margin-bottom:40px;
+font: bold 72px/87px 'PT_Serif';
+margin-bottom: 40px;
 padding-top: 68px;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -111,7 +109,7 @@ margin-bottom: 40px;
 display: block;
 font-family:'Roboto';
 font-weight:500;
-font-size:18px;
+font-size:21px;
 line-height: 21px;
 color: white;
 background: #0056EC;
@@ -119,10 +117,11 @@ width: 240px;
 height: 30px;
 border-radius:4px;
 text-decoration: none;
-padding: 14px 16px;
+padding:16px 14px;
 transition: opacity: .5s;
 transition: background-color 1000ms;
 text-align: center;
+vertical-align: middle;
 }
 .main__button:hover {
   opacity: .5;
